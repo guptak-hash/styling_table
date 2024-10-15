@@ -1,0 +1,55 @@
+<html>
+    <head>
+      <title> Product Table</title> 
+      <style>
+        table{
+            width: 100%;  
+            border-collapse: collapse;  
+        }
+        th, td{
+            border: 2px solid black;
+            text-align: left;
+        }
+        #sum{
+            background-color: rgb(200, 192, 192);
+        }
+       #tp{
+        font-weight: bold;
+       }
+      </style>
+    </head>
+
+    <body>
+    <table>
+        <tr style="background-color: rgb(9, 98, 9);">
+            <th >Product Name </th>
+            <th>Quantity </th>
+            <th>Price Per Unit </th>
+            <th>   Description   </th>
+            <th>Total Price </th>
+        </tr>
+
+        <tr>
+            <td>Product 1 </td>
+            <td>2 </td>
+            <td>$10 </td>
+            <td>This is product 1 </td>
+            <td id="tp">   $20 </td>
+        </tr>
+
+        <tr>
+            <td>Product 2 </td>
+            <td>3 </td>
+            <td>$20 </td>
+            <td>This is product 2 </td>
+            <td id="tp">   $60 </td>
+        </tr>
+
+        <tr id="sum">
+            <td colspan="4">Sum</td>
+            <td id="tp">$80</td>
+        </tr>
+    </table>
+   
+    </body>
+</html>
